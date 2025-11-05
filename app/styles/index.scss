@@ -1,0 +1,19 @@
+@forward "reset";
+@forward "themes/light";
+@forward "globals";
+
+.app {
+  font: var(--font-l);
+  color: var(--primary-color);
+  background: var(--bg-color);
+  min-height: 100vh;
+}
+
+.main{
+  display: flex;
+}
+
+.page{
+  flex-grow: 1;
+  padding: 20px;
+}

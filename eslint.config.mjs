@@ -10,7 +10,7 @@ import nextVitals from 'eslint-config-next/core-web-vitals'
 export default defineConfig([
   ...nextVitals,
   globalIgnores([
-    // Default ignores of eslint-config-next:
+
     '.next/**',
     'out/**',
     'build/**',
